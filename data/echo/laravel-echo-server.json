@@ -1,0 +1,39 @@
+{
+	"apiOriginAllow": {},
+	"authEndpoint": "/broadcasting/auth",
+	"authHost": "http://crm.xueda.local",
+	"clients": [
+		{
+			"appId": "d86f40e100d5b5ac",
+			"key": "5bf442618f0f508f7bb65b1443ba0ecf"
+		}
+	],
+	"database": "redis",
+	"databaseConfig": {
+		"redis": {
+			"host": "redis",
+			"port": "6379",
+			"keyPrefix": "laravel_database_",
+			"options": {
+				"db": "0"
+			}
+		},
+		"sqlite": {
+			"databasePath": "/database/laravel-echo-server.sqlite"
+		},
+		"publishPresence": true
+	},
+	"devMode": true,
+	"host": null,
+	"port": 6001,
+	"protocol": "http",
+	"sslCertPath": "",
+	"sslKeyPath": "",
+	"sslCertChainPath": "",
+	"sslPassphrase": "",
+	"socketio": {},
+	"subscribers": {
+		"http": true,
+		"redis": true
+	}
+}
